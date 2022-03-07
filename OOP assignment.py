@@ -74,7 +74,8 @@ class Delivery:
 exe=Delivery()
 """For taking input type add_task to add a task
    Type complete_task and then id of the executive
-   to complete task for that id"""
+   to complete task for that id.
+   To break from loop click any button"""
 while(True):
     q=input()
     if(q=="add_task"):
